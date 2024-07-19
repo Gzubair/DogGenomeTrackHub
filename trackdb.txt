@@ -1,0 +1,763 @@
+track Dog_exptracks            
+superTrack on show
+shortLabel Dog_exp all
+longLabel Data from Dog_exp all
+visibility full
+
+
+	track Control_Plustracks
+	container multiWig
+	shortLabel Control Plus Strand
+	longLabel Data from Dog_exp Control Plus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 3.1  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Control1_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control1 Plus Strand
+		longLabel Data from Dog_exp Control1 Plus Strand
+		color 0,217,47
+		bigDataUrl Control1.Plus.bw
+		visibility full
+
+
+		track Control2_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control2 Plus Strand
+		longLabel Data from Dog_exp Control2 Plus Strand
+		color 47,142,248
+		bigDataUrl Control2.Plus.bw
+		visibility full
+
+
+		track Control3_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control3 Plus Strand
+		longLabel Data from Dog_exp Control3 Plus Strand
+		color 220,21,235
+		bigDataUrl Control3.Plus.bw
+		visibility full
+
+
+		track Control4_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control4 Plus Strand
+		longLabel Data from Dog_exp Control4 Plus Strand
+		color 264,115,6
+		bigDataUrl Control4.Plus.bw
+		visibility full
+
+
+		track Control5_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control5 Plus Strand
+		longLabel Data from Dog_exp Control5 Plus Strand
+		color 95,238,230
+		bigDataUrl Control5.Plus.bw
+		visibility full
+
+
+		track Control6_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control6 Plus Strand
+		longLabel Data from Dog_exp Control6 Plus Strand
+		color 0,217,47
+		bigDataUrl Control6.Plus.bw
+		visibility full
+
+
+		track Control7_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control7 Plus Strand
+		longLabel Data from Dog_exp Control7 Plus Strand
+		color 47,142,248
+		bigDataUrl Control7.Plus.bw
+		visibility full
+
+
+		track Control8_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control8 Plus Strand
+		longLabel Data from Dog_exp Control8 Plus Strand
+		color 220,21,235
+		bigDataUrl Control8.Plus.bw
+		visibility full
+
+
+		track Control9_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control9 Plus Strand
+		longLabel Data from Dog_exp Control9 Plus Strand
+		color 264,115,6
+		bigDataUrl Control9.Plus.bw
+		visibility full
+
+
+		track Control10_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control10 Plus Strand
+		longLabel Data from Dog_exp Control10 Plus Strand
+		color 95,238,230
+		bigDataUrl Control10.Plus.bw
+		visibility full
+
+
+		track Control11_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control11 Plus Strand
+		longLabel Data from Dog_exp Control11 Plus Strand
+		color 0,217,47
+		bigDataUrl Control11.Plus.bw
+		visibility full
+
+
+		track Control12_Plustrack
+		type bigWig
+		parent Control_Plustracks
+		shortLabel Control12 Plus Strand
+		longLabel Data from Dog_exp Control12 Plus Strand
+		color 47,142,248
+		bigDataUrl Control12.Plus.bw
+		visibility full
+
+
+	track Control_Minustracks
+	container multiWig
+	shortLabel Control Minus Strand
+	longLabel Data from Dog_exp Control Minus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 3.3  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Control1_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control1 Minus Strand
+		longLabel Data from Dog_exp Control1 Minus Strand
+		color 0,217,47
+		bigDataUrl Control1.Minus.bw
+		visibility full
+
+
+		track Control2_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control2 Minus Strand
+		longLabel Data from Dog_exp Control2 Minus Strand
+		color 47,142,248
+		bigDataUrl Control2.Minus.bw
+		visibility full
+
+
+		track Control3_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control3 Minus Strand
+		longLabel Data from Dog_exp Control3 Minus Strand
+		color 220,21,235
+		bigDataUrl Control3.Minus.bw
+		visibility full
+
+
+		track Control4_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control4 Minus Strand
+		longLabel Data from Dog_exp Control4 Minus Strand
+		color 264,115,6
+		bigDataUrl Control4.Minus.bw
+		visibility full
+
+
+		track Control5_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control5 Minus Strand
+		longLabel Data from Dog_exp Control5 Minus Strand
+		color 95,238,230
+		bigDataUrl Control5.Minus.bw
+		visibility full
+
+
+		track Control6_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control6 Minus Strand
+		longLabel Data from Dog_exp Control6 Minus Strand
+		color 0,217,47
+		bigDataUrl Control6.Minus.bw
+		visibility full
+
+
+		track Control7_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control7 Minus Strand
+		longLabel Data from Dog_exp Control7 Minus Strand
+		color 47,142,248
+		bigDataUrl Control7.Minus.bw
+		visibility full
+
+
+		track Control8_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control8 Minus Strand
+		longLabel Data from Dog_exp Control8 Minus Strand
+		color 220,21,235
+		bigDataUrl Control8.Minus.bw
+		visibility full
+
+
+		track Control9_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control9 Minus Strand
+		longLabel Data from Dog_exp Control9 Minus Strand
+		color 264,115,6
+		bigDataUrl Control9.Minus.bw
+		visibility full
+
+
+		track Control10_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control10 Minus Strand
+		longLabel Data from Dog_exp Control10 Minus Strand
+		color 95,238,230
+		bigDataUrl Control10.Minus.bw
+		visibility full
+
+
+		track Control11_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control11 Minus Strand
+		longLabel Data from Dog_exp Control11 Minus Strand
+		color 0,217,47
+		bigDataUrl Control11.Minus.bw
+		visibility full
+
+
+		track Control12_Minustrack
+		type bigWig
+		parent Control_Minustracks
+		shortLabel Control12 Minus Strand
+		longLabel Data from Dog_exp Control12 Minus Strand
+		color 47,142,248
+		bigDataUrl Control12.Minus.bw
+		visibility full
+
+
+	track Resistant_Plustracks
+	container multiWig
+	shortLabel Resistant Plus Strand
+	longLabel Data from Dog_exp Resistant Plus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 3.5  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Resistant1_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant1 Plus Strand
+		longLabel Data from Dog_exp Resistant1 Plus Strand
+		color 0,217,47
+		bigDataUrl Resistant1.Plus.bw
+		visibility full
+
+
+		track Resistant3_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant3 Plus Strand
+		longLabel Data from Dog_exp Resistant3 Plus Strand
+		color 47,142,248
+		bigDataUrl Resistant3.Plus.bw
+		visibility full
+
+
+		track Resistant4_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant4 Plus Strand
+		longLabel Data from Dog_exp Resistant4 Plus Strand
+		color 220,21,235
+		bigDataUrl Resistant4.Plus.bw
+		visibility full
+
+
+		track Resistant5_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant5 Plus Strand
+		longLabel Data from Dog_exp Resistant5 Plus Strand
+		color 264,115,6
+		bigDataUrl Resistant5.Plus.bw
+		visibility full
+
+
+		track Resistant6_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant6 Plus Strand
+		longLabel Data from Dog_exp Resistant6 Plus Strand
+		color 95,238,230
+		bigDataUrl Resistant6.Plus.bw
+		visibility full
+
+
+		track Resistant7_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant7 Plus Strand
+		longLabel Data from Dog_exp Resistant7 Plus Strand
+		color 0,217,47
+		bigDataUrl Resistant7.Plus.bw
+		visibility full
+
+
+		track Resistant8_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant8 Plus Strand
+		longLabel Data from Dog_exp Resistant8 Plus Strand
+		color 47,142,248
+		bigDataUrl Resistant8.Plus.bw
+		visibility full
+
+
+		track Resistant9_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant9 Plus Strand
+		longLabel Data from Dog_exp Resistant9 Plus Strand
+		color 220,21,235
+		bigDataUrl Resistant9.Plus.bw
+		visibility full
+
+
+		track Resistant10_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant10 Plus Strand
+		longLabel Data from Dog_exp Resistant10 Plus Strand
+		color 264,115,6
+		bigDataUrl Resistant10.Plus.bw
+		visibility full
+
+
+		track Resistant11_Plustrack
+		type bigWig
+		parent Resistant_Plustracks
+		shortLabel Resistant11 Plus Strand
+		longLabel Data from Dog_exp Resistant11 Plus Strand
+		color 95,238,230
+		bigDataUrl Resistant11.Plus.bw
+		visibility full
+
+
+	track Resistant_Minustracks
+	container multiWig
+	shortLabel Resistant Minus Strand
+	longLabel Data from Dog_exp Resistant Minus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 3.7  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Resistant1_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant1 Minus Strand
+		longLabel Data from Dog_exp Resistant1 Minus Strand
+		color 0,217,47
+		bigDataUrl Resistant1.Minus.bw
+		visibility full
+
+
+		track Resistant3_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant3 Minus Strand
+		longLabel Data from Dog_exp Resistant3 Minus Strand
+		color 47,142,248
+		bigDataUrl Resistant3.Minus.bw
+		visibility full
+
+
+		track Resistant4_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant4 Minus Strand
+		longLabel Data from Dog_exp Resistant4 Minus Strand
+		color 220,21,235
+		bigDataUrl Resistant4.Minus.bw
+		visibility full
+
+
+		track Resistant5_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant5 Minus Strand
+		longLabel Data from Dog_exp Resistant5 Minus Strand
+		color 264,115,6
+		bigDataUrl Resistant5.Minus.bw
+		visibility full
+
+
+		track Resistant6_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant6 Minus Strand
+		longLabel Data from Dog_exp Resistant6 Minus Strand
+		color 95,238,230
+		bigDataUrl Resistant6.Minus.bw
+		visibility full
+
+
+		track Resistant7_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant7 Minus Strand
+		longLabel Data from Dog_exp Resistant7 Minus Strand
+		color 0,217,47
+		bigDataUrl Resistant7.Minus.bw
+		visibility full
+
+
+		track Resistant8_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant8 Minus Strand
+		longLabel Data from Dog_exp Resistant8 Minus Strand
+		color 47,142,248
+		bigDataUrl Resistant8.Minus.bw
+		visibility full
+
+
+		track Resistant9_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant9 Minus Strand
+		longLabel Data from Dog_exp Resistant9 Minus Strand
+		color 220,21,235
+		bigDataUrl Resistant9.Minus.bw
+		visibility full
+
+
+		track Resistant10_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant10 Minus Strand
+		longLabel Data from Dog_exp Resistant10 Minus Strand
+		color 264,115,6
+		bigDataUrl Resistant10.Minus.bw
+		visibility full
+
+
+		track Resistant11_Minustrack
+		type bigWig
+		parent Resistant_Minustracks
+		shortLabel Resistant11 Minus Strand
+		longLabel Data from Dog_exp Resistant11 Minus Strand
+		color 95,238,230
+		bigDataUrl Resistant11.Minus.bw
+		visibility full
+
+
+	track Sensitive_Plustracks
+	container multiWig
+	shortLabel Sensitive Plus Strand
+	longLabel Data from Dog_exp Sensitive Plus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 3.9  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Sensitive2_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive2 Plus Strand
+		longLabel Data from Dog_exp Sensitive2 Plus Strand
+		color 0,217,47
+		bigDataUrl Sensitive2.Plus.bw
+		visibility full
+
+
+		track Sensitive3_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive3 Plus Strand
+		longLabel Data from Dog_exp Sensitive3 Plus Strand
+		color 47,142,248
+		bigDataUrl Sensitive3.Plus.bw
+		visibility full
+
+
+		track Sensitive4_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive4 Plus Strand
+		longLabel Data from Dog_exp Sensitive4 Plus Strand
+		color 220,21,235
+		bigDataUrl Sensitive4.Plus.bw
+		visibility full
+
+
+		track Sensitive5_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive5 Plus Strand
+		longLabel Data from Dog_exp Sensitive5 Plus Strand
+		color 264,115,6
+		bigDataUrl Sensitive5.Plus.bw
+		visibility full
+
+
+		track Sensitive6_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive6 Plus Strand
+		longLabel Data from Dog_exp Sensitive6 Plus Strand
+		color 95,238,230
+		bigDataUrl Sensitive6.Plus.bw
+		visibility full
+
+
+		track Sensitive7_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive7 Plus Strand
+		longLabel Data from Dog_exp Sensitive7 Plus Strand
+		color 0,217,47
+		bigDataUrl Sensitive7.Plus.bw
+		visibility full
+
+
+		track Sensitive8_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive8 Plus Strand
+		longLabel Data from Dog_exp Sensitive8 Plus Strand
+		color 47,142,248
+		bigDataUrl Sensitive8.Plus.bw
+		visibility full
+
+
+		track Sensitive9_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive9 Plus Strand
+		longLabel Data from Dog_exp Sensitive9 Plus Strand
+		color 220,21,235
+		bigDataUrl Sensitive9.Plus.bw
+		visibility full
+
+
+		track Sensitive10_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive10 Plus Strand
+		longLabel Data from Dog_exp Sensitive10 Plus Strand
+		color 264,115,6
+		bigDataUrl Sensitive10.Plus.bw
+		visibility full
+
+
+		track Sensitive11_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive11 Plus Strand
+		longLabel Data from Dog_exp Sensitive11 Plus Strand
+		color 95,238,230
+		bigDataUrl Sensitive11.Plus.bw
+		visibility full
+
+
+		track Sensitive12_Plustrack
+		type bigWig
+		parent Sensitive_Plustracks
+		shortLabel Sensitive12 Plus Strand
+		longLabel Data from Dog_exp Sensitive12 Plus Strand
+		color 0,217,47
+		bigDataUrl Sensitive12.Plus.bw
+		visibility full
+
+
+	track Sensitive_Minustracks
+	container multiWig
+	shortLabel Sensitive Minus Strand
+	longLabel Data from Dog_exp Sensitive Minus Strand
+	type bigWig
+	parent Dog_exptracks on
+	dragAndDrop on
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	autoScale on
+	alwaysZero on
+	priority 4.1  
+	maxHeightPixels 256:100:32
+	visibility full
+
+
+		track Sensitive2_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive2 Minus Strand
+		longLabel Data from Dog_exp Sensitive2 Minus Strand
+		color 0,217,47
+		bigDataUrl Sensitive2.Minus.bw
+		visibility full
+
+
+		track Sensitive3_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive3 Minus Strand
+		longLabel Data from Dog_exp Sensitive3 Minus Strand
+		color 47,142,248
+		bigDataUrl Sensitive3.Minus.bw
+		visibility full
+
+
+		track Sensitive4_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive4 Minus Strand
+		longLabel Data from Dog_exp Sensitive4 Minus Strand
+		color 220,21,235
+		bigDataUrl Sensitive4.Minus.bw
+		visibility full
+
+
+		track Sensitive5_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive5 Minus Strand
+		longLabel Data from Dog_exp Sensitive5 Minus Strand
+		color 264,115,6
+		bigDataUrl Sensitive5.Minus.bw
+		visibility full
+
+
+		track Sensitive6_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive6 Minus Strand
+		longLabel Data from Dog_exp Sensitive6 Minus Strand
+		color 95,238,230
+		bigDataUrl Sensitive6.Minus.bw
+		visibility full
+
+
+		track Sensitive7_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive7 Minus Strand
+		longLabel Data from Dog_exp Sensitive7 Minus Strand
+		color 0,217,47
+		bigDataUrl Sensitive7.Minus.bw
+		visibility full
+
+
+		track Sensitive8_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive8 Minus Strand
+		longLabel Data from Dog_exp Sensitive8 Minus Strand
+		color 47,142,248
+		bigDataUrl Sensitive8.Minus.bw
+		visibility full
+
+
+		track Sensitive9_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive9 Minus Strand
+		longLabel Data from Dog_exp Sensitive9 Minus Strand
+		color 220,21,235
+		bigDataUrl Sensitive9.Minus.bw
+		visibility full
+
+
+		track Sensitive10_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive10 Minus Strand
+		longLabel Data from Dog_exp Sensitive10 Minus Strand
+		color 264,115,6
+		bigDataUrl Sensitive10.Minus.bw
+		visibility full
+
+
+		track Sensitive11_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive11 Minus Strand
+		longLabel Data from Dog_exp Sensitive11 Minus Strand
+		color 95,238,230
+		bigDataUrl Sensitive11.Minus.bw
+		visibility full
+
+
+		track Sensitive12_Minustrack
+		type bigWig
+		parent Sensitive_Minustracks
+		shortLabel Sensitive12 Minus Strand
+		longLabel Data from Dog_exp Sensitive12 Minus Strand
+		color 0,217,47
+		bigDataUrl Sensitive12.Minus.bw
+		visibility full
+
+

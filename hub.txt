@@ -1,0 +1,5 @@
+hub Dog_exp_hub
+shortLabel Dog Expression Hub
+longLabel Dog Expression Experiment Hub
+genomesFile genomes.txt
+email ghania.zubair@unito.it
